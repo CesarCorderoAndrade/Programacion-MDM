@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Ejercicio2BotonesColores</string>
-    <string name="continuar">Continuar</string>
-    <string name="cancelar">Cancelar</string>
+    <string name="continuar">Next</string>
+    <string name="cancelar">Cancel</string>
 </resources>
