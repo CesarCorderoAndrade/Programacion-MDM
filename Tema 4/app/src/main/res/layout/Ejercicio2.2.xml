@@ -7,102 +7,62 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
+    <FrameLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="match_parent">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/black"
-            android:orientation="horizontal">
+        <View
+            android:id="@+id/view9"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="top|left" />
 
-            <View
-                android:id="@+id/view"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#EEFF41" />
+        <View
+            android:id="@+id/view7"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="center|top" />
 
-            <View
-                android:id="@+id/view4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#F8F8F8" />
+        <View
+            android:id="@+id/view8"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="right|top" />
 
-            <View
-                android:id="@+id/view5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
+        <View
+            android:id="@+id/view5"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="center|left" />
 
-            <View
-                android:id="@+id/view6"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="#FF5252" />
-        </LinearLayout>
+        <View
+            android:id="@+id/view6"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="center" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/naranja"
-            android:orientation="horizontal">
+        <View
+            android:id="@+id/view3"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="center|right" />
 
-            <View
-                android:id="@+id/view9"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#AE00FF" />
+        <View
+            android:id="@+id/view4"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="bottom|left" />
 
-            <View
-                android:id="@+id/view7"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.666"
-                android:background="#0026FA" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="bottom|center" />
 
-            <View
-                android:id="@+id/view8"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@color/rojo"
-            android:orientation="horizontal">
-
-            <View
-                android:id="@+id/view3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#FFDD00" />
-
-            <View
-                android:id="@+id/view2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-            <View
-                android:id="@+id/view"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.666"
-                android:background="#538A3C" />
-
-        </LinearLayout>
-
-    </LinearLayout>
+        <View
+            android:id="@+id/view2"
+            android:layout_width="300px"
+            android:layout_height="300px"
+            android:layout_gravity="bottom|right" />
+    </FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
