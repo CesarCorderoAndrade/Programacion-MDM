@@ -5,4 +5,121 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"/>
+    android:background="#348177"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tMail"
+        android:layout_width="143dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="134dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginEnd="134dp"
+        android:layout_marginBottom="30dp"
+        android:autoSizeTextType="uniform"
+        android:autoText="false"
+        android:text="Correo"
+        android:textColor="#D6EF6F"
+        app:layout_constraintBottom_toTopOf="@+id/editMail"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tPassword"
+        android:layout_width="148dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="177dp"
+        android:layout_marginBottom="31dp"
+        android:autoSizeTextType="uniform"
+        android:autoText="false"
+        android:text="Contraseña"
+        android:textColor="#D6EF6F"
+        app:layout_constraintBottom_toTopOf="@+id/editPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.522"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editMail" />
+
+    <EditText
+        android:id="@+id/editMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="72dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/tPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tMail" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/cbRecordar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tPassword" />
+
+    <CheckBox
+        android:id="@+id/cbRecordar"
+        android:layout_width="243dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="70dp"
+        android:autoSizeTextType="uniform"
+        android:autoText="false"
+        android:text="¿Recordar contraseña?"
+        android:textColor="#D6EF6F"
+        app:layout_constraintBottom_toTopOf="@+id/continuar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword" />
+
+    <Button
+        android:id="@+id/continuar"
+        android:layout_width="120dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:autoSizeTextType="uniform"
+        android:autoText="true"
+        android:background="#348177"
+        android:text="Continuar"
+        android:textColor="#D6EF6F"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cbRecordar" />
+
+    <TextView
+        android:id="@+id/tMensaje"
+        android:layout_width="202dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:textColorHighlight="#F0F06A"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuar" />
+</androidx.constraintlayout.widget.ConstraintLayout>
