@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
         recyclerView = findViewById(R.id.recView);
 
         Libros[] libro = new Libros[2];
-        libro[0] = new Libros("IT", "payaso");
-        libro[1] = new Libros("La historia interminable", "historia");
+        libro[0] = new Libros("IT. Stephen King. 1986", "payaso");
+        libro[1] = new Libros("LA HISTORIA INTERMINABLE. Michael Ende. 1979", "historia");
 
         AdaptadorLibros adapter = new AdaptadorLibros(libro);
 

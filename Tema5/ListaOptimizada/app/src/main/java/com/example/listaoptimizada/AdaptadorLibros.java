@@ -57,7 +57,7 @@ public class AdaptadorLibros extends RecyclerView.Adapter<AdaptadorLibros.Libros
                 context.getResources()
                         .getIdentifier(libro.image,
                                 "drawable",
-                                "com.example.listas"));
+                                context.getPackageName()));
     }
   }
 }
