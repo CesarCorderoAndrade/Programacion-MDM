@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Tema6_SegundaPantalla</string>
+    <string name="correo">Introduce tus datos de acceso</string>
+    <string name="contrase_a">Contraseña</string>
+    <string name="recordar_contrase_a">¿Recordar contraseña?</string>
+    <string name="continuar">Continuar</string>
+    <string name="desconectar">Desconectar</string>
+    <string name="men_principal">  Menú Principal</string>
+</resources>
